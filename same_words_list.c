@@ -80,9 +80,9 @@ void parse_words(list_t in, char *str);
  *
  * @param list_t a
  * @param list_t b
- * @return int
+ * @return int (TRUE|FALSE)
  *
- * compare function for qsort-ing list_ts
+ * compare lists, return false if mismatch, true otherwise
  */
 int list_compare(list_t a, list_t b);
 
